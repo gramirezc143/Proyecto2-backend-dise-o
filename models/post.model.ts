@@ -12,8 +12,8 @@ const postSchema = new Schema({
     imgs: [{
         type: String
     }],
-    coord: {
-        type: String   // -13.313123, 12.3123123
+    coords: {
+        type: String   // -13.313123, 12.3123123  mmm
     },
     usuario:{ 
         type: Schema.Types.ObjectId,
