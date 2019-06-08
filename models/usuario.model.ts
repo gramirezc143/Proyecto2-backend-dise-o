@@ -36,7 +36,6 @@ usuarioSchema.method('compararPassword', function( password: string = ''): boole
 
 });
 
-
 interface IUsuario extends Document {
     nombre: string;
     email: string;

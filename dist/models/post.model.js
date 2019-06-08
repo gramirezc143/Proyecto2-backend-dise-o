@@ -5,6 +5,9 @@ const postSchema = new mongoose_1.Schema({
     created: {
         type: Date
     },
+    titulo: {
+        type: String
+    },
     mensaje: {
         type: String
     },
